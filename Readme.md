@@ -74,5 +74,3 @@ $TargetPath = "\\ваш-домен.local\SYSVOL\ваш-домен.local\Policies
 5. Настройте планировщик заданий на сервере для ежедневного запуска `Update-MaxPackage.ps1`
 
 > **Примечание:** Убедитесь, что на клиентских машинах разрешено выполнение скриптов PowerShell (политика Execution Policy должна быть не строже `RemoteSigned`).
-# Прямая ссылка на скачивание MSI с сайта вендора
-$SourceUrl = "https://example.com/downloads/MAX.msi"
